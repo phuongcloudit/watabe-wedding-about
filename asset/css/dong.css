@@ -1,0 +1,124 @@
+#watabe img {
+    max-width: 100%
+}
+
+.f_right {
+    float: right
+}
+
+.mb50 {
+    margin-bottom: 50px !important
+}
+
+.mb15 {
+    margin-bottom: 15px !important
+}
+
+.watabe_rowhere .inner_watabe {
+    max-width: -webkit-calc(1140px / 2);
+    max-width: calc(1140px / 2);
+    padding: 20px 0
+}
+
+.watabe_rowhere .image_watabe {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+.watabe_rowhere .image_watabe img {
+    opacity: 0;
+    max-width: 100%
+}
+
+.tt_watabe {
+    font-weight: 900
+}
+
+.subtt_watabe {
+    font-weight: 600;
+    display: block
+}
+
+.banner {
+    padding: 50px 0
+}
+
+.title-about,
+.title-map {
+    font-weight: 600;
+    color: #565656;
+    font-size: 22px
+}
+
+.title-about span,
+.title-map span {
+    font-weight: 100;
+    display: inline-block;
+    top: -2px;
+    position: relative;
+    font-size: 17px
+}
+
+.title-section h2 {
+    font-size: 24px;
+    font-weight: 700
+}
+
+@media (min-width:769px) {
+    .dress_rowhere .col-md-6 {
+        padding: 0;
+        padding-left: 15px
+    }
+
+    .dress_rowhere .col-md-6:nth-child(1) {
+        height: 100vh
+    }
+
+    .dress_rowhere .col-md-6>.c:not(:last-child) {
+        margin-bottom: 15px;
+        height: 50vh
+    }
+
+    .dress_rowhere .col-md-6>.c {
+        height: calc(50vh - 15px)
+    }
+
+    .tt_watabe {
+        font-size: 100px
+    }
+
+    .subtt_watabe {
+        font-size: 50px
+    }
+
+    .title-about,
+    .title-map {
+        font-size: 41px
+    }
+
+    .title-about span,
+    .title-map span {
+        font-size: 30px
+    }
+
+    .watabe_rowhere .inner_watabe {
+        padding: 40px
+    }
+
+    .tt_dress1 {
+        padding-top: 50px;
+        padding-bottom: 50px
+    }
+}
+
+@media (max-width:768px) {
+    .tt_dress1 {
+        padding-top: 20px;
+        padding-bottom: 20px
+    }
+
+    .dress_rowhere .image_watabe.c {
+        margin-bottom: 10px
+    }
+}
