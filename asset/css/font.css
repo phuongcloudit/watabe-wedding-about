@@ -3,3 +3,7 @@
     font-family: "Font awesome";
     src: url("../fonts/fontawesome-webfont.ttf");
 }
+@font-face {
+    font-family: "Sawarabi Gothic";
+    src: url("../fonts/Sawarabi_Gothic/SawarabiGothic-Regular.ttf");
+}
