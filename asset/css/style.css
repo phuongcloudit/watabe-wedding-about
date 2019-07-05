@@ -263,8 +263,16 @@ body {
     margin-top: 10px;
 }
 
-
-
+/* --corporate hictory-- */
+.corporate_history .corp_item .corp_content{
+    width: 50%;
+}
+.corporate_history .corp_item{
+    display: flex;
+}
+.corporate_history .corp_item .corp_img{
+    width: 50%;
+}
 
 
 
