@@ -3,7 +3,7 @@
 .view,
 body,
 html {
-    height: 100%
+    margin: 0 auto;
 }
 
 p {
@@ -23,6 +23,9 @@ h4,
 h5,
 h6 {
     margin: 0;
+}
+.f_right {
+    float: right;
 }
 
 /* img {
@@ -146,7 +149,13 @@ body {
     width: 100%;
     max-width: 1000px;
     margin: 0 auto;
-
+}
+.container-fluid {
+    width: 100%;
+    /* padding-right: 15px;
+    padding-left: 15px; */
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .sp {
@@ -325,6 +334,7 @@ body {
 
 .div-about {
     display: flex;
+    overflow: hidden;
     /* display: none; */
 }
 .img-about{
@@ -340,6 +350,7 @@ width: 50%;
 
 .inner_watabe {
     padding: 40px;
+    max-width: calc(1140px / 2);
 }
 
 
@@ -370,6 +381,7 @@ width: 50%;
 } */
 .img-about img{
     opacity: 0;
+    max-width: 100%;
 }
 .title-section h2 {
     font-size: 24px;
@@ -400,6 +412,7 @@ width: 50%;
 
     .inner_watabe {
         padding: 20px;
+        max-width: 100%;
     }
     .text-about,
     .img-1,
@@ -421,7 +434,7 @@ width: 50%;
 
 .business_item .icon_text .icon_business {
     background: #000;
-    padding: 10px;
+    padding: 7px;
     margin-right: 1px;
 }
 
@@ -525,7 +538,9 @@ width: 50%;
     border: 1px solid #fff;
     padding: 10px 30px 10px 70px;
 }
-
+.company-profile-table table td:first-child{
+    vertical-align: top;
+}
 .col_table_cp {
     display: flex;
 }
@@ -635,7 +650,7 @@ width: 50%;
     content: "創業";
     position: absolute;
     top: -37px;
-    left: -15px;
+    left: -6px;
     color: #b6a472;
     font-size: 20px;
 }
@@ -752,6 +767,7 @@ width: 50%;
 @media screen and (max-width: 768px) {
     .corporate_history .corp_item {
         display: block;
+        margin-top: 40px;
     }
 
     .corporate_history .corp_item .corp_img {
@@ -772,7 +788,7 @@ width: 50%;
 
     .corporate_history .corp_item::before {
         top: 0;
-        left: -22px;
+        left: -18px;
     }
 
     /*.corporate_history::before {
