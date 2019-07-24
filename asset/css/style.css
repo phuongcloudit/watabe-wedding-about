@@ -1,13 +1,12 @@
 @charset "UTF-8";
 
-.view,
 body,
 html {
     margin: 0 auto;
 }
 
 p {
-    margin: 0;
+    margin: 0 !important;
 }
 
 .h1,
@@ -24,8 +23,22 @@ h5,
 h6 {
     margin: 0;
 }
+
 .f_right {
     float: right;
+}
+
+.content {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.clearfix {
+    clear: both;
 }
 
 /* img {
@@ -33,7 +46,7 @@ h6 {
 } */
 
 /* bootstrap */
-.text-center {
+/* .text-center {
     text-align: center !important;
 }
 
@@ -116,7 +129,7 @@ section {
 
 .d-flex {
     display: flex !important;
-}
+} */
 
 /* end bootstrap */
 body {
@@ -150,6 +163,7 @@ body {
     max-width: 1000px;
     margin: 0 auto;
 }
+
 .container-fluid {
     width: 100%;
     /* padding-right: 15px;
@@ -330,18 +344,22 @@ body {
 }
 
 /* about-watabe-wedding */
-#about-watabe-wedding {}
+#about-watabe-wedding {
+    padding-top: 30px;
+}
 
 .div-about {
     display: flex;
     overflow: hidden;
     /* display: none; */
 }
-.img-about{
-width: 50%;
+
+.img-about {
+    width: 50%;
 }
-.text-about{
-width: 50%;
+
+.text-about {
+    width: 50%;
 }
 
 .row-reverse {
@@ -356,19 +374,20 @@ width: 50%;
 
 .img-1 {
     background-image: url(../img/img-1.jpg);
-    
+
 }
 
 .img-2 {
     background-image: url(../img/img-2.jpg);
-    
+
 }
 
 .img-3 {
     background-image: url(../img/img-3.jpg);
-    
+
 }
-.img-about{
+
+.img-about {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -379,10 +398,11 @@ width: 50%;
 .img-3 {
     width: 100%;
 } */
-.img-about img{
+.img-about img {
     opacity: 0;
     max-width: 100%;
 }
+
 .title-section h2 {
     font-size: 24px;
     font-weight: 700;
@@ -414,6 +434,7 @@ width: 50%;
         padding: 20px;
         max-width: 100%;
     }
+
     .text-about,
     .img-1,
     .img-2,
@@ -422,7 +443,10 @@ width: 50%;
     }
 }
 
-/* --- business---*/
+/* --- our business---*/
+#our-business{
+    padding-top: 30px;
+}
 
 .business_item .icon_text {
     /* background-color: #000;
@@ -518,6 +542,10 @@ width: 50%;
 
 
 /* company profile */
+#company-profile {
+    padding-top: 30px;
+}
+
 .company-profile {
     background: url(../img/img-14.jpg) no-repeat;
     padding-bottom: 30px;
@@ -538,9 +566,11 @@ width: 50%;
     border: 1px solid #fff;
     padding: 10px 30px 10px 70px;
 }
-.company-profile-table table td:first-child{
+
+.company-profile-table table td:first-child {
     vertical-align: top;
 }
+
 .col_table_cp {
     display: flex;
 }
@@ -549,20 +579,22 @@ width: 50%;
     padding-right: 45px;
 }
 
-.company-profile-table table td span {
+.company-profile-table table td a {
     position: relative;
     display: block;
     padding: 5px 23px 5px;
+    text-decoration: none;
+    color: #000
 }
 
-.company-profile-table table td span::before {
+.company-profile-table table td a::before {
     position: absolute;
     content: "";
     background-image: url(../img/icon-6.png);
     width: 14px;
     height: 14px;
     left: 0;
-    padding: 11px;
+    padding: 4px;
     background-repeat: no-repeat;
     background-position: center
 }
@@ -576,6 +608,10 @@ width: 50%;
 
 
 /* -- top message -- */
+#message {
+    padding-top: 30px;
+}
+
 .message .message_img {
     margin-right: 1px;
 }
@@ -630,7 +666,13 @@ width: 50%;
 
 /* --corporate hictory-- */
 #corporate-history {
-    margin-bottom: 150px;
+    /* margin-bottom: 150px; */
+    overflow: hidden;
+    padding-top: 30px;
+}
+
+#corporate-history .heading {
+    border-bottom: 1px solid #000;
 }
 
 .corp_item:not(last-child) {
@@ -644,6 +686,7 @@ width: 50%;
     background-position: top left;
     background-size: contain;
     position: relative;
+    margin-top: 60px;
 }
 
 .corporate_history::before {
@@ -804,6 +847,10 @@ width: 50%;
 /* network */
 #network .network img {
     max-width: 100%;
+}
+
+#network {
+    padding-top: 30px;
 }
 
 /* -- footer -- */
